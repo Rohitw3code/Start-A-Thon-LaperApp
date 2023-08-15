@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/rsd_expert_image"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:src="@drawable/logo" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp"
+            android:layout_toLeftOf="@id/rsd_decline_btn"
+            android:layout_toRightOf="@id/rsd_expert_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rsd_expert_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/rsd_ps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/problem_statement"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/rsd_decline_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginVertical="10sp"
+            android:background="@drawable/button_ripple"
+            android:padding="10sp"
+            android:text="Delete"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

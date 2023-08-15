@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_request_sent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    app:cardCornerRadius="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/request_sent_image"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/request_sent_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="expert name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/request_sent_ps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:text="PS : " />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

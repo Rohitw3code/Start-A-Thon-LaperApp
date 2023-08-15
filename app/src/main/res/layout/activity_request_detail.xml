@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NewDashboard.NewRequest.RequestDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout_request_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/request_detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                app:title="Request Sent"
+                app:titleTextColor="@color/white" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/request_detail_card1"
+            style="@style/CCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_bar_layout_request_detail"
+            android:layout_margin="10sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10sp"
+                    android:layout_marginVertical="20sp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/request_detail_user_image"
+                        android:layout_width="85sp"
+                        android:layout_height="85sp"
+                        android:layout_gravity="center"
+                        android:layout_marginVertical="3sp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/request_detail_user_name"
+                        style="@style/NormalText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="10sp"
+                        android:layout_marginVertical="3sp"
+                        android:text="Laper Expert"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/request_detail_user_date"
+                        style="@style/NormalText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="10sp"
+                        android:layout_marginVertical="3sp"
+                        android:gravity="right"
+                        android:text="20 Dec 2022" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1sp"
+                    android:layout_below="@id/home_new_project"
+                    android:layout_marginHorizontal="80sp"
+                    android:layout_marginVertical="20sp"
+                    android:background="@color/white" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"
+                    android:text="Tags"
+                    android:textSize="18sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/request_detail_tech_recyclerview"
+                    style="@style/NormalText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="30sp"
+                    android:orientation="horizontal"
+                    tools:itemCount="1"
+                    tools:listitem="@layout/tag_item" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"
+                    android:text="Problem Statement"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/request_detail_desc"
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginBottom="30sp" />
+
+
+                <ImageView
+                    android:id="@+id/request_detail_image"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:layout_marginVertical="10sp"
+                    android:layout_marginHorizontal="20sp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/request_detail_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/request_detail_card1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="120sp"
+            android:background="@drawable/round_blue"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

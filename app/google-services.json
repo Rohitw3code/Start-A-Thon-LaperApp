@@ -1,0 +1,133 @@
+{
+  "project_info": {
+    "project_number": "884295042717",
+    "firebase_url": "https://laper-6dbef-default-rtdb.firebaseio.com",
+    "project_id": "laper-6dbef",
+    "storage_bucket": "laper-6dbef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884295042717:android:1db201219c15b9a25af674",
+        "android_client_info": {
+          "package_name": "com.laper.laperadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884295042717-2dir9jcgolaqravu4t27c8magkgnftv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laper.laperadmin",
+            "certificate_hash": "8f29984350ecb4383fa027ec68ad1b30a883fb8e"
+          }
+        },
+        {
+          "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhTWlQPtOlxJ4Y--rFHcMU9zdXM3KEx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884295042717:android:5ceb07c7519528795af674",
+        "android_client_info": {
+          "package_name": "com.lapperapp.laper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884295042717-75s7tn3ve2714ljm2ujksk1cnhg5setq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "8f29984350ecb4383fa027ec68ad1b30a883fb8e"
+          }
+        },
+        {
+          "client_id": "884295042717-7769j37tqhd199ska18421vsnjmu1o6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "368b48c3a9e3a7699060f08e2ecb82fa8e26f740"
+          }
+        },
+        {
+          "client_id": "884295042717-fs91aovludeg98s75htkt0a6fldpakv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "9eca24f2030797c44337d7a1c9e25fed27af13eb"
+          }
+        },
+        {
+          "client_id": "884295042717-h90ih0ujlidoee36cc9qf4ln3lbs226g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "a0b7240ddad9dd280183b449539635a938442e06"
+          }
+        },
+        {
+          "client_id": "884295042717-orodvqg3jt87quadro0jt84cem3rdsvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "fb6ff49b77273f19e834898e1023b2e66943292b"
+          }
+        },
+        {
+          "client_id": "884295042717-pu9brkah661hm19a9sep7l98bb525msu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "7fe2e4e2c29b67c64e521c2f134d7c64294f3964"
+          }
+        },
+        {
+          "client_id": "884295042717-rpu35cr5q5osn74n7iscoubo3bd3rgbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lapperapp.laper",
+            "certificate_hash": "adf824b8ece2237b6ee09122f4abb83064a6d6cc"
+          }
+        },
+        {
+          "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhTWlQPtOlxJ4Y--rFHcMU9zdXM3KEx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

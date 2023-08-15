@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/availabe_client_request_image"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/linear_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/availabe_client_request_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/availabe_client_request_name"
+                style="@style/TextColorG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:text="Rohit Kumar"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/availabe_client_request_problem_statement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="15sp"
+                android:text="Problem Statement" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/availabe_client_request_chat"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/chat" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_profile_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bluez_more_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_dev_image_view"
+                android:layout_width="80sp"
+
+                android:layout_height="80sp"
+                android:layout_marginHorizontal="20sp"
+                app:civ_border_color="@color/bluez"
+                app:civ_border_width="2sp"
+                android:layout_marginVertical="50sp"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:id="@+id/user_profile_linear_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:layout_toRightOf="@id/profile_dev_image_view"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/profile_dev_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="laper developer"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/user_profile_verified"
+                        android:layout_width="35sp"
+                        android:layout_height="35sp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:src="@drawable/verified" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/user_profile_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10sp"
+                    android:text="loading.."
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/user_profile_last_active"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginHorizontal="30sp"
+                    android:layout_marginVertical="10sp"
+                    android:text="calculating.."
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/user_profile_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_profile_linear_1"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10sp"
+                android:visibility="gone"
+                android:layout_marginStart="20sp"
+                android:text="professional web developer"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/profile_chat_section"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginVertical="20sp"
+                android:src="@drawable/chat"
+                android:visibility="gone" />
+
+
+            <nl.joery.animatedbottombar.AnimatedBottomBar
+                android:id="@+id/profile_bottom_bar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_profile_description"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="40sp"
+                android:background="#FFF"
+                android:backgroundTint="@color/bluez_more_dark"
+                app:abb_badgeTextColor="@color/white"
+                app:abb_indicatorAppearance="round"
+                app:abb_indicatorColor="@color/blue"
+                app:abb_indicatorHeight="5dp"
+                app:abb_indicatorMargin="10dp"
+                app:abb_rippleEnabled="true"
+                app:abb_selectedIndex="0"
+                app:abb_selectedTabType="icon"
+                app:abb_tabColor="@color/white"
+                app:abb_tabColorSelected="@color/blue"
+                app:abb_tabs="@menu/profile_menu" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/profile_frame_container"
+        android:layout_below="@id/user_profile_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>

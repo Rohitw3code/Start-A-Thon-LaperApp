@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.NewHome.SendRequestActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/send_request_toolbar"
+            style="@style/ToolbarTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:subtitleTextColor="@color/white"
+            app:title="Overview"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/round_blue"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/baby_stuff"
+            android:text="Problem Statement"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ps_send_request"
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12sp"
+            android:layout_marginVertical="20sp"
+            android:background="@drawable/round_blue"
+            android:padding="10sp"
+            android:text="@string/problem_statements"
+            android:textSize="17sp" />
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:padding="5sp"
+            android:text="Category"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/category_send_request"
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:layout_marginVertical="10sp"
+            android:fontFamily="@font/fira_code"
+            android:text="#Android_app #Python"
+            android:textColor="@color/teal_200"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image_send_request"
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:layout_margin="10sp"
+        android:src="@drawable/logo2" />
+
+    <ProgressBar
+        android:id="@+id/progress_send_request"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100sp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/ask_btn_send_request"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:backgroundTint="@color/blue"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

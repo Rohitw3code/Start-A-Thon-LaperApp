@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.NewHome.TypeQuestActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/type_quest_toolbar"
+            style="@style/ToolbarTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Problem Statement"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/addition_detail_type_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@null"
+        android:gravity="start"
+        android:hint="Add additional details"
+        android:minHeight="400sp"
+        android:padding="20sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="2sp"
+        android:backgroundTint="@color/black2"
+        app:cardCornerRadius="10sp">
+
+        <Button
+            android:id="@+id/type_quest_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_submit_btn"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

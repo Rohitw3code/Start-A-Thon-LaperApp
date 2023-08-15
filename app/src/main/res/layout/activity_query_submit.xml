@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".query.QuerySubActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/query_submit_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:id="@+id/query_text1"
+        style="@style/NormalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_submit_app_bar"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="20sp"
+        android:text="Insert Query"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/query_edit"
+        style="@style/NormalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_text1"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/round_gray"
+        android:gravity="left"
+        android:hint="@string/problem_statements"
+        android:minHeight="10sp"
+        android:minLines="5"
+        android:padding="8sp" />
+
+    <LinearLayout
+        android:id="@+id/query_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_edit"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/photos" />
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="10sp"
+            android:text="photos" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/query_text2"
+        style="@style/NormalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_linear1"
+        android:layout_marginHorizontal="20sp"
+        android:text="Select the category"
+        android:textSize="20sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/query_category_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_text2"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp" />
+
+    <RelativeLayout
+        android:id="@+id/query_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/query_category_recycler_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:background="@drawable/round_blue"
+        android:padding="2sp">
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_auth"
+            android:padding="15sp"
+            android:text="Submit Query"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

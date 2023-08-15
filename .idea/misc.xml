@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/activity_main2.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/available_request_item.xml" value="0.1" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/fragment_dashboard.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/fragment_home.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/fragment_lapers.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/fragment_setting.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/layout/request_item.xml" value="0.25" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/menu/bottom_nav_menu.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android Studio Projects/Laper/app/src/main/res/menu/menu.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/drawable/round.xml" value="0.308" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/drawable/shadow_bottom.xml" value="0.151" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/activity_auth.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/activity_category.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/category_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/domain_item.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/laper_user_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/layout/user_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/Lapers/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/bubble_left_trail.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/bubble_right_trail.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/chat_bubble_left.xml" value="0.3215" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/chat_bubble_right.xml" value="0.3215" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2785" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.2785" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/notification_item.xml" value="0.2965" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/ripple.xml" value="0.314" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/round.xml" value="0.314" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/round_card_edge.xml" value="0.2785" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/drawable/shadow_bottom.xml" value="0.2785" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_about.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_all_requests.xml" value="0.3388888888888889" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_auth.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_category.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_declined.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_developer.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_image_view.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_notification.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_personal_setting.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_project_complete.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request_pop.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request_sent.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request_sent2.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request_sent_view.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_request_submit.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_task_completed_receive.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/activity_users.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/available_client_ite.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/available_client_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/available_request_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/developer_item.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/fragment_personal.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/fragment_setting.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/fragment_user_chat.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/message_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/notification_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/pop_up.xml" value="0.24467353951890033" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/project_work_profile_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/ps_dialog_item.xml" value="0.24097222222222223" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/request_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/request_pop_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/request_received_decline_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/request_sent_decline_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/request_sent_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/skill_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/spinner_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/task_completed_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/update_pop_up.xml" value="0.18" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/user_chat_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/user_client_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/layout/user_item.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/menu/bottom_menu.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/user/Desktop/New Start/Laper/app/src/main/res/menu/drawer.xml" value="0.12291666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

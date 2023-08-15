@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.RequestReceived.ReceivedRequestsActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/request_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/request_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="All Experts"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/all_requests_empty_lotti"
+        android:layout_below="@id/request_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/empty_goast"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_requests_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_app_bar" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/main_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bluez_dark"
+            android:elevation="10sp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/flow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/main_open_drawer"
+                    android:layout_width="30sp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="10sp"
+                    android:layout_marginTop="2sp"
+                    android:src="@drawable/ic_baseline_menu_24" />
+
+                <TextView
+                    style="@style/NormalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Laper"
+                    android:textColor="@color/primary_color"
+                    android:textSize="25sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/main_user_image1"
+                    android:layout_width="40sp"
+                    android:layout_height="45sp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/logo"
+                    app:civ_border_color="@color/bluez_more_dark"
+                    app:civ_border_width="1sp" />
+
+                <ru.nikartm.support.ImageBadgeView
+                    android:id="@+id/main_notification_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginHorizontal="15sp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_notifications_black_24dp"
+                    app:ibv_badgeColor="@android:color/holo_red_light"
+                    app:ibv_badgeLimitValue="false"
+                    app:ibv_badgeTextColor="#ffffff"
+                    app:ibv_badgeTextSize="10sp"
+                    app:ibv_badgeTextStyle="bold"
+                    app:ibv_fixedBadgeRadius="10dp" />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1" />
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:abb_indicatorAppearance="round"
+        app:abb_indicatorColor="@color/primary_color"
+        app:abb_indicatorHeight="4dp"
+        app:abb_indicatorMargin="16dp"
+        app:abb_selectedIndex="0"
+        app:abb_selectedTabType="text"
+        app:abb_tabAnimationSelected="slide"
+        app:abb_tabColor="@color/primary_color"
+        app:abb_tabColorSelected="@color/primary_color"
+        app:abb_tabs="@menu/bottom_nav_menu" />
+
+</LinearLayout>

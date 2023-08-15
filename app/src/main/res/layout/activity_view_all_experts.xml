@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories.ViewAllExpertsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/view_all_expert_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/view_all_expert_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="All Experts"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/view_all_expert_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_all_expert_app_bar"
+        android:layout_marginTop="20sp"
+        tools:listitem="@layout/developer_item" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/available_request_image"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/available_request_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/available_request_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:text="@string/app_name"
+                android:textColor="@color/blue_dark" />
+
+            <TextView
+                android:id="@+id/available_request_problem_statement"
+                style="@style/NormalText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_marginTop="15sp"
+                android:text="@string/app_name" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/available_request_chat"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/chat" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

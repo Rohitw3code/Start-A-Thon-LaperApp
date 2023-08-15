@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_expert_in"
+        android:icon="@drawable/ic_baseline_code_24"
+        android:title="Expert In" />
+
+    <item
+        android:id="@+id/navigation_personal"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="@string/personal" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_works"-->
+    <!--        android:icon="@drawable/ic_baseline_workspaces_24"-->
+    <!--        android:title="@string/work" />-->
+
+</menu>

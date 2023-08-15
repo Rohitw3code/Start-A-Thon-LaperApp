@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/request_user_image"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_toRightOf="@id/request_user_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/request_user_name"
+                style="@style/TextColorG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="2sp"
+                android:text="laper"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/request_description"
+                style="@style/TextColorG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="2sp"
+                android:layout_toRightOf="@id/request_user_image"
+                android:text="laper" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

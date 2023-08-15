@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    app:cardCornerRadius="10sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dev_skill_image"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5sp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/dev_skill_title"
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="python"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dev_skill_request_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_card"
+            android:padding="10sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="request" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

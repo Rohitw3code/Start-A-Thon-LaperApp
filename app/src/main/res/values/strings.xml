@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Laper</string>
+    <string name="username">laper</string>
+    <string name="clinet_id">884295042717-2dir9jcgolaqravu4t27c8magkgnftv0.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">chat</string>
+    <string name="personal">Personal</string>
+    <string name="work">Work</string>
+    <string name="name">Rohit Kumar</string>
+    <string name="problem_statement">I am having an issue with Flask Deployment</string>
+    <string name="abc">hello</string>
+
+    <string name="loginregister"><![CDATA[< Login / Register >]]></string>
+
+    <!-- /side drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Date Util -->
+    <string name="date_util_term_a">a</string>
+    <string name="date_util_unit_minute">minute</string>
+    <string name="date_util_unit_minutes">minutes</string>
+    <string name="date_util_unit_hour">hour</string>
+    <string name="date_util_unit_hours">hours</string>
+    <string name="date_util_unit_day">day</string>
+    <string name="date_util_unit_days">days</string>
+    <string name="date_util_unit_month">month</string>
+    <string name="date_util_unit_months">months</string>
+    <string name="date_util_unit_year">year</string>
+    <string name="date_util_unit_years">years</string>
+
+    <string name="date_util_prefix_about">about</string>
+    <string name="date_util_prefix_over">over</string>
+    <string name="date_util_prefix_almost">almost</string>
+    <string name="date_util_suffix">ago</string>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+        <item>rather not say</item>
+    </string-array>
+
+    <string name="problem_statements">Explain your problem , error , doubt briefly once you submit expert will contact you soon</string>
+
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--    <resources>-->
+    <!--        <string name="default_web_client_id" translatable="false">884295042717-8sqrtojt60laudqaqdd12fn45hb28c5p.apps.googleusercontent.com</string>-->
+    <!--        <string name="firebase_database_url" translatable="false">https://laper-6dbef-default-rtdb.firebaseio.com</string>-->
+    <!--        <string name="gcm_defaultSenderId" translatable="false">884295042717</string>-->
+    <!--        <string name="google_api_key" translatable="false">AIzaSyBwhTWlQPtOlxJ4Y&#45;&#45;rFHcMU9zdXM3KEx4</string>-->
+    <!--        <string name="google_app_id" translatable="false">1:884295042717:android:5ceb07c7519528795af674</string>-->
+    <!--        <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwhTWlQPtOlxJ4Y&#45;&#45;rFHcMU9zdXM3KEx4</string>-->
+    <!--        <string name="google_storage_bucket" translatable="false">laper-6dbef.appspot.com</string>-->
+    <!--        <string name="project_id" translatable="false">laper-6dbef</string>-->
+    <!--    </resources>-->
+
+
+</resources>

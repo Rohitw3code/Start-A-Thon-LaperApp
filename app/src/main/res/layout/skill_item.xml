@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:padding="5sp">
+
+    <ImageView
+        android:id="@+id/skill_image"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/skill_title"
+        style="@style/TextColorG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10sp"
+        android:layout_toLeftOf="@id/skill_request_btn"
+        android:layout_toRightOf="@id/skill_image"
+        android:text="Android app development"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/skill_request_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/skill_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_ripple"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Request"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/skill_item_text"
+            android:src="@drawable/ic_baseline_touch_app_24" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
